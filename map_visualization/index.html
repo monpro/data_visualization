@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg
+    version="1.1"
+    baseProfile="full"
+    xmlns="http://www.w3.org/2000/svg"
+    id="map">
+  </svg>
+  <select>
+    <option value="population">Population</option>
+    <option value="populationDensity">Population Density</option>
+    <option value="medianAge">Median Age</option>
+    <option value="fertilityRate">Fertility Rate</option>
+  </select>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
